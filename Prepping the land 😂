@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Feed</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #ffffff; /* Pure white background */
+            color: #111111; /* Clean dark text */
+            line-height: 1.6;
+        }
+        header {
+            margin-bottom: 50px;
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 20px;
+        }
+        .post {
+            margin-bottom: 60px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .date { color: #888; font-size: 0.9rem; margin-bottom: 5px; }
+        .post-title { margin: 0 0 15px 0; font-size: 1.5rem; }
+        img { width: 100%; height: auto; border-radius: 6px; margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Continuous Stream</h1>
+        <p>Scroll down to see my daily photos and updates.</p>
+    </header>
+
+    <!-- NEW DAILY POSTS GO DIRECTLY UNDER THIS LINE -->
+
+    <!-- Example Post 1 -->
+    <div class="post">
+        <div class="date">October 17, 2026</div>
+        <h2 class="post-title">Welcome to the Feed</h2>
+        <p>This is my first live entry. My friends can bookmark this link, see everything on a clean white layout, and remain 100% anonymous.</p>
+    </div>
+
+</body>
+</html>
